@@ -1,8 +1,8 @@
 {
   "name": "Databases",
   "description": "The small but mighty database administrators at Burnt Tomatoes.",
-  "service_type": "Logical",
-  "service_level": 1,
+  "type": "Logical",
+  "level": 1,
   "meta": {
     "github_url": "https://github.com/service-catalog-testing/databases",
     "slack_channel": "#database-team",
