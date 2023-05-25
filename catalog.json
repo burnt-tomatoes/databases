@@ -1,12 +1,19 @@
+// Files can be valid JSON5, see https://json5.org/ for more.
 {
+  // JSON5 test, a single line comment.
+  /* A multiple
+  line 
+  comment */
   "name": "Databases",
   "description": "The small but mighty database administrators at Burnt Tomatoes.",
   "type": "Logical",
   "priority": 1,
   "meta": {
     "github_url": "https://github.com/service-catalog-testing/databases",
-    "slack_channel": "#database-team",
+    // Note the single quote here.
+    "slack_channel": '#database-team',
     "datadog_url": "https://app.datadog.com/some-dashboard",
-    "pager_duty_url": "https://pagerduty.com/some-pager-duty"
+    // Note trailing comma at the end here.
+    "pager_duty_url": "https://pagerduty.com/some-pager-duty",
   }
 }
